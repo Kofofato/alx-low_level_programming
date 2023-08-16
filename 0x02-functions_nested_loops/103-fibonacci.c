@@ -14,11 +14,11 @@ int main(void)
 
 	for (a = 1; a <= 33; ++a)
 	{
-		if (b < 4000000 && (c % 2) == 0)
+		if (b < 4000000 && (b % 2) == 0)
 		{
 			sum = sum + b;
 		}
-		after = a + c;
+		after = b + c;
 		b = c;
 		c = after;
 	}
