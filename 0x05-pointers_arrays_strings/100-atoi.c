@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _atoi - Function that convert a string to an integer
- * @a: The integer
+ * @s: The integer
  * Return: the integer converted
  */
 int _atoi(char *s)
@@ -24,7 +24,7 @@ int _atoi(char *s)
 
 		if (s[n] >= '0' && s[n] <= '9')
 		{
-			z = s[n] -'0';
+			z = s[n] - '0';
 			if (m % 2)
 				z = -z;
 			i = i * 10 + z;
